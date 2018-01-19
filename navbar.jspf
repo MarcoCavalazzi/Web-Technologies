@@ -1,0 +1,32 @@
+<%@ page pageEncoding="UTF-8" %>
+ <a id="link1" href="index.jsp" >Home</a>
+ <a id="link2" href="registration.jsp" >Registrazione</a>
+ <a id="link3" href="">Opere</a>
+ <a id="link4" href="" >Mostre</a>
+ <a id="link5" href="">Contatti</a>
+ <div id="dati">
+     <form method="post" action="checklog.jsp">
+
+     <p class="subtitle">Accesso al sito</p>
+     <p class="info">Username</p>
+
+     <input type="text" class="testo" name="user"/>
+     <p class="info">Password</p>
+      <input type="password" class="testo2" name="pass"/>
+      <div>
+         <input class="btn" type="submit" value="Ok"/>
+         <input class="btn" type="reset"  value="Annulla"/>
+     </div>
+      
+     </form>
+</div>
+ <div id="utente">
+     <p class="loggato">Utente loggato:<span>
+     <%
+        if((request.getParameter("user")!=null) && (request.getParameter("pass")!=null))
+            {
+                 %><%=application.getAttribute("NOME")%>
+                   <%=application.getAttribute("COGNOME")%></span> </p><%
+            }
+     %>
+ </div>

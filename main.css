@@ -1,0 +1,220 @@
+/* 
+    Document   : main
+    Created on : 1-mar-2010, 9.14.33
+    Author     : marco.cavalazzi
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+body
+{
+    padding-left:10px;
+    padding-right:10px;
+    margin-right:auto;
+    margin-left:auto;
+    position:relative;
+    background-color:rgb(112,120,131);
+    width:800px;
+    font-family: ",Trebuchet.MS";
+}
+#header
+{
+    background-color:#CDFFA1;
+    position:relative;
+    height:150px;
+    border:2px solid white;
+    background-image: url(creazione.jpg);
+    background-repeat:no-repeat;
+    margin:0;
+    padding:0;
+    width:800px;
+  
+}
+h1
+{
+    color:white;
+    text-align:right;
+    padding-top:10px;
+    padding-right:10px;
+}
+#navbar
+{
+    background-color:rgb(220,220,220);
+    height:910px;
+    position:relative;
+    border:2px solid white;
+    width:348px;
+}
+a
+{
+    text-decoration:none;
+    color:rgb(193,156,139);
+    font-size:16px;
+    height:300px;
+}
+
+a:hover
+{
+    color:green;
+    background-color:#CDFFA1;
+}
+#link1
+{
+    top:10px;
+    position:absolute;
+    margin-top:10px;
+    padding-left:5px;
+    width:343px;
+    height:30px;
+}
+#link2
+{
+    top:40px;
+    position:absolute;
+    margin-top:10px;
+    padding-left:5px;
+    width:343px;
+    height:30px;
+}
+#link3
+{
+    top:70px;
+    position:absolute;
+    margin-top:10px;
+    padding-left:5px;
+    width:343px;
+    height:30px;
+}
+#link4
+{
+    top:100px;
+    position:absolute;
+    margin-top:10px;
+    padding-left:5px;
+    width:343px;
+    height:30px;
+}
+#link5
+{
+    top:130px;
+    position:absolute;
+    margin-top:10px;
+    padding-left:5px;
+    width:343px;
+    height:30px;
+}
+#content
+{
+    position:absolute;
+    width:446px;
+    border:2px solid white;
+    border-left:5px solid white;
+    height:900px;
+    background-color:rgb(220,220,220);
+    top:154px;
+    left:351px;
+    padding:10px 5px 0px 5px;
+}
+.subtitle
+{
+    color:rgb(168,97,95);
+    font-size:20px;
+}
+.par
+{
+    font-size:14px;
+   
+}
+#dati
+{
+    margin-top:300px;
+    height:150px;
+    background-color:#CDFFA1;
+    width:348px;
+    position:relative;
+    padding-left:5px;
+}
+.info
+{
+    color:rgb(193,156,139);
+    font-size:16px;
+}
+.testo
+{
+    top:45px;
+    position:absolute;
+    left:100px;
+    width:200px;
+}
+.testo2
+{
+    top:85px;
+    position:absolute;
+    left:100px;
+     width:200px;
+}
+.btn
+{
+    width:80px;
+}
+#footer
+{
+ background-color:#CDFFA1;
+ border:2px solid white;
+ height:20px;
+ position:absolute;
+ width:800px;
+ text-align:right;
+}
+#footer p
+{
+    color:rgb(193,156,139);
+    font-size:12px;
+}
+#reg
+{
+    background-color:#CDFFA1;
+    padding-left:5px;
+    position:relative;
+}
+.nome
+{
+  color:rgb(193,156,139);
+  top:5px;
+}
+.testoreg
+{
+    border-color:rgb(193,156,139);
+    left:120px;
+    position:relative;
+    width:200px;
+    top:45px;
+}
+#utente
+{
+    position:absolute;
+    background-color:#CDFFA1;
+    margin-top:50px;
+    height:30px;
+    width:348px;
+}
+.loggato
+{
+    font-style:italic;
+    color:rgb(193,156,139);
+    margin:0;
+    padding:0;
+}
+#stampa
+{
+    background-color:#CDFFA1;
+}
+#utente span
+{
+    font-weight:bold;
+    color:rgb(168,97,95);
+}
